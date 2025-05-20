@@ -3,9 +3,9 @@
 
 int main() {
 
-    int a = 1;
-    int b = 12;
-    int c = 26;
+    const int a = 1;
+    const int b = 12;
+    const int c = 26;
 
     //цей блочок уравнюэ все
     double olala = a + 4 * b - pow(c, 2); //pow це в квадраті 
